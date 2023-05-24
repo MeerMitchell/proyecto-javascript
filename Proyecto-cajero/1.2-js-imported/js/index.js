@@ -1,3 +1,5 @@
-console.log("hola mundo");
-var babeName = "Aemond";
-console.log(babeName);
+var cuentas = [
+    { nombre: “Aemond”, saldo: 200 }
+    { nombre: “Aegon”, saldo: 290 }
+    { nombre: “Helaena”, saldo: 67 }
+  ];

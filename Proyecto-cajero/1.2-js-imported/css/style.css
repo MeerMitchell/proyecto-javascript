@@ -20,12 +20,12 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 1.3rem;
-    background-color: #f2cc8f;
+    background-color: #9CC5A1;
 }
 
 .cta-link {
-    background-color: #eae2b7;
-    color: #81b29a;
+    background-color: #DCE1DE;
+    color: #1F2421;
     padding: 0.625rem;
     border-radius: 0.625rem;
     display: flex;
@@ -38,7 +38,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 5.25rem;
     align-items: center;
-    background-color: #DDBEA9;
+    background-color: #49A078;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding: 1.5rem;
@@ -49,7 +49,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 5.25rem;
     align-items: center;
-    background-color: #DDBEA9;
+    background-color: #49A078;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding: 1.5rem;
