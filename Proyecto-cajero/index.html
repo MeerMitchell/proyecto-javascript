@@ -8,21 +8,20 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
       </style>
     <link rel="stylesheet" href="./css/style.css">
-    <title>Cajero Automatico</title>
+    <title>Iniciar sesión</title>
 </head>
 <body>
-    <script src="./js/index.js"></script>
-
-   
-    <nav class="sesion">
-        <div class="grid-container">
-            <h1>Iniciar sesión</h1>
-            <input class="user" type="text" placeholder="Usuario">
-            <input class="password" type="password" placeholder="Password">
-            <a class="cta-link" href="" target="_blank"><strong>Ingresar</strong></a>
-        </div>
-    </nav>
-
-   
+    
+    <main>
+        <form >
+            <label for="nameUser">Nombre</label>
+            <input type="name" id="namelUser" placeholder="Nombre">
+            <label for="passwordUser">Password</label>
+            <input type="password" id="passwordUser" placeholder="Your password">
+        </form>
+        <button id="btnLogin">Ingresar</button>
+        <p id="msgUser"></p>
+    </main>
 </body>
+<script src="./js/index.js"></script>
 </html>

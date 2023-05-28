@@ -16,7 +16,7 @@ a{
     padding: 0.625rem;
     border-radius: 0.625rem;
     display: flex;
-    width: fit-content; 
+    justify-content: center;
 
 }
 
@@ -45,6 +45,5 @@ nav {
 }
 
 .user, .password {
-    margin: 30px 8px 28px 0px;
-    padding: 8px 18px;
+    padding: 9px 15px;
 }
