@@ -23,7 +23,11 @@ function datosUsuario(){
 }
 
 const persona =
-  { email: 'aemond@gmail.com', password: 1234, saldo: 20000 }
+  { nombre: 'aemond', 
+  email: 'aemond@gmail.com', 
+  password: 1234, 
+  saldo: 20000 
+};
 
 
 
