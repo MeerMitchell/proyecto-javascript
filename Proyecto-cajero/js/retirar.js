@@ -1,22 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-        <h1>Retirar</h1>
-        <p id="saldoUsuario"></p>
-        <form action="">
-            <label for="">¿Cuánto deseas retirar?</label>
-            <input type="number" id="retiroUsuario">
-        </form>
-        <button id="btnRetirar">Retirar</button>
-        <p id="mensajeUsuario"></p>
-    </main>
-</body>
-<script src="retirar.js"></script>
-</html>
+const persona =
+  { nombre: 'aemond', 
+  email: 'aemond@gmail.com', 
+  password: 1234, 
+  saldo: 20000.00 
+};
+
+let saldoUser = document.getElementById('saldoUsuario');
+saldoUser.innerHTML = "$" + persona.saldo;
+
+let btnRetirar = document.getElementById('btnRetirar');
+btnRetirar.addEventListener('click', retirar);
+
+let mensajeUsuario = document.getElementById('mensajeUsuario');
+
+function retirar(){
+    let cantidadRetiro = document.getElementById('retiroUsuario').value;
+
+    if (cantidadRetiro > 30000){
+        mensajeUsuario.innerHTML = "Lo siento no puedes retirar";
+    } else {
+        if (cantidadRetiro > persona.saldo){
+            mensajeUsuario.innerHTML = "Lo siento, saldo insuficiente";
+        } else {
+            persona.saldo = persona.saldo - cantidadRetiro;
+            mensajeUsuario.innerHTML = "La cantidad ha sido retirada." + " Tu saldo actual es de " + persona.saldo;
+        }
+    }
+}
