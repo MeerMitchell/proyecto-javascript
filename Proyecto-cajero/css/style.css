@@ -10,21 +10,12 @@ a{
     text-decoration: none;
 }
 
-.cta-link {
-    background-color: #DCE1DE;
-    color: #1F2421;
-    padding: 0.625rem;
-    border-radius: 0.625rem;
+
+
+.container {
     display: flex;
-    justify-content: center;
-
-}
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 4.5rem;
+    flex-direction: column;
+    gap: 1.5rem;
     align-items: center;
     background-color: #49A078;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -32,18 +23,17 @@ a{
     padding: 2.5rem;
 }
 
-nav {
-
-    padding: 7rem;
-}
-
-.sesion {
-    max-width: 1205px;
+main {
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    background-color: #49A078;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 2.5rem;
+   
 }
 
-.user, .password {
-    padding: 9px 15px;
-}
+
+

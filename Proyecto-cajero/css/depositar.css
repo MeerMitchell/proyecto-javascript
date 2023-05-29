@@ -7,20 +7,12 @@ body {
     
 }
 
-.banco{
-    padding: 1.5rem;
-}
-
-
-.grid-container1{
+.opcion{
     display: grid;
     grid-template-columns: 1fr;
-    
     align-items: center;
     background-color: #49A078;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2rem;
     padding: 1.5rem;
-   
 }
-
